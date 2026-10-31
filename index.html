@@ -40,6 +40,27 @@
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.bmw-motorcycles.vn/etc.clientlibs/mnm/mnmnsc/clientlibs/global/resources/images/common/apple-icon-180x180.png"/>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HNV8BGYG71"></script>
   <style>
+  
+	@font-face {
+	  font-family: checkin;
+	  src: url('./bmw/Regular.otf') format('opentype');
+	}
+		@font-face {
+	  font-family: checkin;
+		  font-weight:bold;
+	  src: url('./bmw/Regular.otf') format('opentype');
+	}
+		@font-face {
+	  font-family: checkinlight;
+		  font-weight:50;
+	  src: url('./bmw/Light.otf') format('opentype');
+	}
+			@font-face {
+	  font-family: checkin;
+		  font-weight:10;
+	  src: url('./bmw/Regular.otf') format('opentype');
+	}
+
     * {
       box-sizing: border-box;
     }
@@ -49,8 +70,10 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
+	  font-weight:100;
       background: #111;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: checkin;
+	  line-height: 1.5;
     }
 
     .app {
@@ -143,7 +166,7 @@
 <body>
   <div class="app">
     <header class="header">
-      <div class="title">THE NEW BMW 7 – DẤU ẤN NGƯỜI DẪN ĐẦU.</div>
+      <div class="title">THE NEW BMW 7 - DẤU ẤN NGƯỜI DẪN ĐẦU</div>
 
       <!--<a
         class="open-btn"
